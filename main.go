@@ -22,6 +22,7 @@ func main(){
       panic(err)
     }
   }()
+  fmt.Println("Test test....... !!!!!")
   // Check the connection
   err = client.Ping(context.TODO(),nil)
   if err != nil{
